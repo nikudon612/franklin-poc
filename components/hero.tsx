@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function hero() {
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="h-screen flex items-center justify-center bg-hero-pattern">
       <div className="flex flex-col items-center justify-start">
         <div className="flex flex-col items-center justify-center text-center flex-wrap max-w-[720px] pb-10">
           <div className="font-bold text-6xl pb-6 ">
