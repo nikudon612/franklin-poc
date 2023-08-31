@@ -6,13 +6,21 @@ function footer() {
       <div className="p-[80px] w-full">
         <div className="w-full flex justify-between py-6">
           <div>
-            <div>Join our Newsletter</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="font-bold text-2xl">Join our Newsletter</div>
+            <p className="text-base font-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </div>
           <div>
             <div>
-              <input type="text" placeholder="Email Address" />
-              <button>Subscribe</button>
+              <input
+                type="text"
+                placeholder="Enter your Email"
+                className="bg-black/50 border-[#FCE458] text-white/50 rounded-lg focus:border-yellow-500"
+              />
+              <button className="border-solid bg-[#FCE458] rounded-full text-black font-bold px-4 py-2 hover:bg-[#ffeb77]">
+                Subscribe
+              </button>
             </div>
             <p>
               By subscribing you agree to with our Privacy Policy and provide
