@@ -2,10 +2,10 @@ import Image from "next/image";
 
 function footer() {
   const footerIcons = [
-    { image: "", url: "" },
-    { image: "", url: "" },
-    { image: "", url: "" },
-    { image: "", url: "" },
+    { image: "/Facebook.png", url: "/facebook" },
+    { image: "/Vector.png", url: "/instagram" },
+    { image: "/Twitter.png", url: "/twitter" },
+    { image: "/Linkedin.png", url: "/linkedin" },
   ];
   return (
     <div className="h-[600px] w-screen fixed inset-x-0 bottom-0 bg-black text-white flex justify-center ">
@@ -34,15 +34,15 @@ function footer() {
             </p>
           </div>
         </div>
-        <hr className="py-4 pb-20" />
-        <div className="py-6">
+        <hr className="py-4 pb-6" />
+        <div className="pt-6 pb-14">
           <div className="flex flex-row justify-between items-center">
             <div>
-              <div>
+              <div className="py-4 pb-10">
                 <Image
-                  src={"/CAI.png"}
-                  width={100}
-                  height={100}
+                  src={"/CAI_White.png"}
+                  width={200}
+                  height={200}
                   color="white"
                 />
               </div>
@@ -51,8 +51,8 @@ function footer() {
                   <div className="px-4">
                     <Image
                       src={item.image}
-                      width={40}
-                      height={40}
+                      width={20}
+                      height={20}
                       color="white"
                     />
                   </div>
@@ -78,8 +78,8 @@ function footer() {
             </div>
           </div>
         </div>
-        <hr className="py-4" />
-        <div className="py-4">
+        <hr className="pt-4 pb-2" />
+        <div className="">
           <div className="flex flex-row justify-between items-center">
             <div>Copyright © 2023 Adobe. All rights reserved.</div>
             <div className="flex flex-row">
