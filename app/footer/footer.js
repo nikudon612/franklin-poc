@@ -8,7 +8,7 @@ function footer() {
     { image: "/Linkedin.png", url: "/linkedin" },
   ];
   return (
-    <div className="h-[600px] w-screen fixed inset-x-0 bottom-0 bg-black text-white flex justify-center ">
+    <div className="h-[600px] w-screen inset-x-0 bottom-0 bg-black text-white flex justify-center ">
       <div className="p-[80px] w-full">
         <div className="w-full flex justify-between py-6 pb-20">
           <div>
@@ -28,8 +28,9 @@ function footer() {
                 Subscribe
               </button>
             </div>
-            <p className="text-xs font-400 px-2">
-              By subscribing you agree to with our Privacy Policy and provide
+            <p className="text-xs font-400 px-2 pt-4">
+              By subscribing you agree to with our{" "}
+              <span className="underline">Privacy Policy</span> and provide
               consent to receive updates from our company.
             </p>
           </div>
