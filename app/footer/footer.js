@@ -1,6 +1,12 @@
 import Image from "next/image";
 
 function footer() {
+  const footerIcons = [
+    { image: "", url: "" },
+    { image: "", url: "" },
+    { image: "", url: "" },
+    { image: "", url: "" },
+  ];
   return (
     <div className="h-[600px] w-screen fixed inset-x-0 bottom-0 bg-black text-white flex justify-center ">
       <div className="p-[80px] w-full">
@@ -16,13 +22,13 @@ function footer() {
               <input
                 type="text"
                 placeholder="Enter your Email"
-                className="bg-black/50 border-[#FCE458] text-white/50 rounded-lg focus:border-yellow-500"
+                className=" border-solid border-2  border-[#FCE458] bg-black/50  text-white/50 rounded-full focus:outline-none w-[80%] h-[48px] px-4"
               />
-              <button className="border-solid bg-[#FCE458] rounded-full text-black font-bold px-4 py-2 hover:bg-[#ffeb77]">
+              <button className="border bg-[#FCE458] rounded-full text-black font-bold px-4 py-2 hover:bg-[#ffeb77] hover:text-[#454545]">
                 Subscribe
               </button>
             </div>
-            <p>
+            <p className="text-xs font-400 px-2">
               By subscribing you agree to with our Privacy Policy and provide
               consent to receive updates from our company.
             </p>
@@ -41,10 +47,16 @@ function footer() {
                 />
               </div>
               <div className="flex flex-row">
-                <div>Icons</div>
-                <div>Icons</div>
-                <div>Icons</div>
-                <div>Icons</div>
+                {footerIcons.map((item) => (
+                  <div className="px-4">
+                    <Image
+                      src={item.image}
+                      width={40}
+                      height={40}
+                      color="white"
+                    />
+                  </div>
+                ))}
               </div>
             </div>
             <div className="flex flex-row">
