@@ -24,7 +24,7 @@ function hero_4() {
           </div>
         </div>
         <div className="w-1/2 pl-20 ">
-          <div className="">
+          <div className="drop-shadow">
             <Image
               src={"/verify.png"}
               width={500}

@@ -45,6 +45,7 @@ function footer() {
                   width={200}
                   height={200}
                   color="white"
+                  alt="CAI Logo"
                 />
               </div>
               <div className="flex flex-row">
