@@ -4,7 +4,7 @@ import React from "react";
 
 function home_3() {
   return (
-    <div className="h-[585px] w-screen bg-brand-yellow/20 flex items-center justify-center">
+    <div className="h-[585px] w-screen bg-brand-yellow/30 flex items-center justify-center">
       <div className="flex flex-row items-center justify-center">
         <div className="w-1/2 flex items-center justify-between">
           <div className="flex items-center justify-center">
