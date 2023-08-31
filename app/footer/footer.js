@@ -56,6 +56,7 @@ function footer() {
                       width={20}
                       height={20}
                       color="white"
+                      alt="CAI Logo"
                     />
                   </div>
                 ))}
