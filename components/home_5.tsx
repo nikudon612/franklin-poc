@@ -3,10 +3,40 @@ import React from "react";
 import Link from "next/link";
 
 function home_5() {
+  const companies = [
+    {
+      image: "/logo.png",
+      url: "/",
+    },
+    {
+      image: "/logo2.png",
+      url: "/",
+    },
+    {
+      image: "/logo3.png",
+      url: "/",
+    },
+    {
+      image: "/logo4.png",
+      url: "/",
+    },
+    {
+      image: "/Canon.png",
+      url: "/",
+    },
+    {
+      image: "/El-Tiempo.png",
+      url: "/",
+    },
+    {
+      image: "/Leica_1-2x.png",
+      url: "/",
+    },
+  ];
   return (
-    <div className="h-[685px] w-screen flex justify-center bg-brand-yellow/30">
-      <div className="w-full flex flex-row justify-center">
-        <div className="flex items-center px-20">
+    <div className="h-[685px] w-screen flex flex-col items-center justify-center bg-brand-yellow/30">
+      <div className="w-full flex flex-row justify-center items-center">
+        <div className="flex items-center justify-center px-20">
           <Image
             src={"/layers2x.png"}
             width={600}
@@ -34,6 +64,13 @@ function home_5() {
           </div>
         </div>
       </div>
+      {/* <div className="h-[165px] w-screen flex items-center justify-center">
+        {companies.map((company) => (
+          <div className="m-h-[36px] flex items-center justify-center">
+            <Image src={company.image} alt="company logo" />
+          </div>
+        ))}
+      </div> */}
     </div>
   );
 }

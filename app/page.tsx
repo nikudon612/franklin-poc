@@ -5,6 +5,7 @@ import Home_2 from "../components/home_2";
 import Home_3 from "@/components/home_3";
 import Home_4 from "@/components/home_4";
 import Home_5 from "@/components/home_5";
+import Home_6 from "@/components/home_6";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Home_3 />
       <Home_4 />
       <Home_5 />
+      <Home_6 />
     </div>
   );
 }
