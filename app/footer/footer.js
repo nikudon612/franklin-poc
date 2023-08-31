@@ -49,8 +49,8 @@ function footer() {
                 />
               </div>
               <div className="flex flex-row">
-                {footerIcons.map((item) => (
-                  <div className="px-4">
+                {footerIcons.map((item, index) => (
+                  <div className="px-4" key={index}>
                     <Image
                       src={item.image}
                       width={20}
