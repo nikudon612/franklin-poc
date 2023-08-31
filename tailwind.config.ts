@@ -14,6 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "hero-pattern": 'url("/Circles.png")',
       },
+      colors: {
+        "brand-yellow": "#FCE458",
+      },
     },
   },
   plugins: [],
