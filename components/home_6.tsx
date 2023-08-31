@@ -48,8 +48,11 @@ function home_6() {
       <div className="flex items-center justify-center pt-20 ">
         <div className="flex items-center justify-center">
           <div className="flex flex-wrap flex-row items-center justify-center ">
-            {Priciples.map((principle) => (
-              <div className="w-[33%] px-6 py-6 flex flex-col items-center justify-center">
+            {Priciples.map((principle, index) => (
+              <div
+                className="w-[33%] px-6 py-6 flex flex-col items-center justify-center"
+                key={index}
+              >
                 <Image
                   src={principle.image}
                   width={88}

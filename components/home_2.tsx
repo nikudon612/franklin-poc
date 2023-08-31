@@ -53,8 +53,11 @@ function home_2() {
         </div>
         <div>
           <div className="flex flex-row items-center justify-center pt-[10rem]">
-            {diagramItems.map((item) => (
-              <div className="flex flex-col items-center justify-center w-[275px] px-[20px]">
+            {diagramItems.map((item, index) => (
+              <div
+                className="flex flex-col items-center justify-center w-[275px] px-[20px]"
+                key={index}
+              >
                 <Image
                   src={item.image}
                   width={200}
