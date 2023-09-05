@@ -6,7 +6,8 @@ function home_1() {
           <iframe
             width="1200"
             height="675"
-            src="https://www.youtube.com/embed/84ITgYoSR8Q?si=m5Sq5623whSECgJL"
+            src="https://www.youtube.com/embed/Xd6vtHMlse4"
+            //https://www.youtube.com/watch?v=Xd6vtHMlse4
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
